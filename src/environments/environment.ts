@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig : {
+    apiKey: 'AIzaSyB3nwbxB3WUBA7CKXAtAf5JY9F2KYic5Gs',
+    authDomain: 'smartshower-prototype.firebaseapp.com',
+    databaseURL: 'https://smartshower-prototype.firebaseio.com',
+    projectId: 'smartshower-prototype',
+    storageBucket: 'smartshower-prototype.appspot.com',
+    messagingSenderId: '1002774604240',
+    appId: '1:1002774604240:web:87725de87f81afc05071d5',
+    measurementId: 'G-X5DHWS48WE'
+  }
 };
 
 /*
